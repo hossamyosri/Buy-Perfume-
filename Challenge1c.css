@@ -1,0 +1,125 @@
+
+@media (min-width:767px) {
+    body{
+            text-align: center;
+            align-items: center;
+            text-align: -webkit-center;
+            background-color: rgb(230, 211, 189);
+            margin: auto;
+        
+    }
+}
+.bigcont{
+    text-align: center;
+    margin: 50px 60px;
+    display: grid;
+    max-width: 50%;
+    position: relative;
+    
+}
+.smallcon{
+    background-color: white;
+    display:flex ;
+    border-radius: 6%;
+    margin-top: 25%;
+}
+.smallcon h4{
+    text-transform: uppercase;
+    margin-bottom: -50px;
+    color: cadetblue;
+    text-align: left;
+    font-family: cursive;
+    font-size: 12px;
+    padding-left: 6px;
+    margin-left: 15px;
+}
+@media (min-width:767px) {
+    .smallcon .image2{
+        width: 50%;
+        border-radius: 6%;
+        height: auto;
+    }
+    .smallcon .image1{
+        display: none;
+    }
+
+}
+.text{
+    display: grid;
+    max-width: 100%;
+    position: relative;
+}
+
+.text h2{
+    margin: 47px 28px 2px 15px;
+    text-align: left;
+    position: absolute;
+    max-width: 80%;
+}
+.text p{
+    position: relative;
+    text-align: left;
+    margin: 150px 66px 10px 15px;
+}
+.text .price{
+    color: rgb(10 169 122);
+    text-align: center;
+    position: relative;
+    margin-top: auto;
+    font-size: 22px;
+
+}
+.text .price s{
+    font-size: 15px;
+    color: rgb(34, 34, 33);
+}
+.text button {
+    height: 40px;
+    width: 140px;
+    background-color: rgb(16, 173, 126);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    margin: 5px 66px 10px 66px;
+}
+.text button:hover{
+    background-color: rgb(3, 44, 32);
+
+}
+
+@media(max-width:767px){
+    .smallcon .image2{
+        display: none;
+    }
+    .bigcont{
+        display: grid;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 6px 10px 86px;
+    }
+    .smallcon{
+        background-color: #d9d1d1;
+        display: flex;
+        flex-direction: column;
+        border-radius: 6%;
+        flex-wrap: nowrap;
+        align-items: stretch;
+    }
+
+    .smallcon .text {
+        display: grid;
+        align-items: start;
+        justify-content: space-evenly;
+        justify-items: start;
+    }
+    .smallcon .image1{
+        width: 100%;
+        border-radius: 6% 6% 0% 0%;
+    }
+    .smallcon .text .price{
+        margin: 11px 20px 13px 100px;
+    }
+
+}
